@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		8E3328C51D7BCE9C007D49F1 /* WHDcolorSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8E3328C41D7BCE9C007D49F1 /* WHDcolorSDK.podspec */; };
 		8EBBF66C1D79864D009C3DDD /* WHDcolor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EBBF66B1D79864D009C3DDD /* WHDcolor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EBBF6731D79864D009C3DDD /* WHDcolor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBBF6681D79864D009C3DDD /* WHDcolor.framework */; };
 		8EBBF6781D79864D009C3DDD /* WHDcolorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBF6771D79864D009C3DDD /* WHDcolorTests.m */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E3328C41D7BCE9C007D49F1 /* WHDcolorSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WHDcolorSDK.podspec; sourceTree = SOURCE_ROOT; };
 		8EBBF6681D79864D009C3DDD /* WHDcolor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WHDcolor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBBF66B1D79864D009C3DDD /* WHDcolor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHDcolor.h; sourceTree = "<group>"; };
 		8EBBF66D1D79864D009C3DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		8EBBF6761D79864D009C3DDD /* WHDcolorTests */ = {
 			isa = PBXGroup;
 			children = (
+				8E3328C41D7BCE9C007D49F1 /* WHDcolorSDK.podspec */,
 				8EBBF6771D79864D009C3DDD /* WHDcolorTests.m */,
 				8EBBF6791D79864D009C3DDD /* Info.plist */,
 			);
@@ -213,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E3328C51D7BCE9C007D49F1 /* WHDcolorSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
