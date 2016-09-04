@@ -14,9 +14,12 @@ Pod::Spec.new do |s|
   #  can feel like a chore to fill in it's definitely to your advantage. The
   #  summary should be tweet-length, and the description more in depth.
   #
-
+# s.name = “项目名字”
   s.name         = "WHDcolorSDK"
+
+#s.version ="版本号"
   s.version      = "1.0.0"
+# s.summary = "项目介绍"
   s.summary      = "hundred颜色SDK Cocoa Pods集成库"
 
   s.description  = <<-DESC
@@ -24,7 +27,7 @@ Pod::Spec.new do |s|
 
                    hundred颜色 SDK
                    DESC
-
+# s.homepage = "你的主页地址"
   s.homepage     = "https://github.com/OneHundredSir/WHD-ios-cocopods"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -37,6 +40,7 @@ Pod::Spec.new do |s|
   #
 
  # s.license      = "MIT (example)"
+# s.license = "MIT" //这里就选这个许可证
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
@@ -49,7 +53,7 @@ Pod::Spec.new do |s|
   #  Specify a social_media_url where others can refer to, for example a twitter
   #  profile URL.
   #
-
+# s.author ={"你的名字" => "邮箱"}
   s.author             = { "王大大" => "whengjie@126.com" }
   # Or just: s.author    = "个推实验室"
   # s.authors            = { "个推实验室" => "support@getui.com" }
@@ -62,6 +66,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
+# s.platform =iOS,"最低支持的系统"
   s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
@@ -75,7 +80,7 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-
+# s.source ={git =>"项目git地址",tag =>"tag号"}
   s.source       = { :git => "https://github.com/OneHundredSir/WHD-ios-cocopods.git", :tag => "1.0.0" }
 
 
@@ -86,8 +91,8 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
-  s.source_files  = "WHDcolor.h"
+# s.source_files = "text/*/.(h.m)" //这里是项目路径要传的文件
+  s.source_files  = "WHDcolor/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
